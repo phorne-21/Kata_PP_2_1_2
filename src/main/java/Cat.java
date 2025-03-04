@@ -1,7 +1,3 @@
-import org.springframework.context.annotation.Scope;
-
-// д.б. POJO класс Cat
-//    @Scope - новый бин при каждом запросе
 public class Cat {
     private String message;
 

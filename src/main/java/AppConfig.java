@@ -12,7 +12,6 @@ public class AppConfig {
         return helloWorld;
     }
 
-//    бин с именем “cat”.
     @Bean(name="cat")
     @Scope("prototype")
     public Cat getCat() {
